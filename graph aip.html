@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<!--html-->
+<html>
+<!--Head section-->
+<head>
+  <meta charset="utf-8">
+   
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+
+<!--Style section-->
+<style type="text/css">
+/*---------body css-----------*/
+body{
+  padding: 3%;
+  cursor: pointer;
+  background-color:white;
+      }
+/*----------------------------*/
+/*------flex-container--------*/      
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #22313F;
+}
+.flex-container>div {
+  background-color: #f1f1f1;
+  width:95%;
+  height:auto;
+  margin: 3%;
+  text-align: left;
+  font-size: 100%;;
+}
+/*----------------------------*/
+/*------flex-container2--------*/ 
+.flex-container2 {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #67809F;
+}
+.flex-container2>div {
+  background-color: #f1f1f1;
+  width:95%;
+  height:auto;
+  margin: 3%;
+  margin-top:15;
+  text-align: left;
+  font-size: 100%;;
+}
+/*----------------------------*/
+
+/*----Heading----------------*/
+#heading{
+  font-size: 300%;
+}
+div{
+  padding:1%;
+}
+/*-----button css-----------*/
+button{
+  background-color: #4B77BE;
+  border:solid black;
+  border-radius: 5px;
+}  
+/*------------------------*/
+</style>
+<!--/style section end-->
+</head>
+<!--/head section end-->
+
+<!--body section-->
+<body>
+<p>
+  <center id="heading">Hi I am Mahesh</center>
+</p>
+<!--fex-container-->
+<div class="flex-container">
+  <div>
+    <div><b>Basic profile page</b>  
+      &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+      <button id="facebookBtn"><b>click here<b></button>
+    </div>
+    <div>Name - <i><span id="myName"></span></i></div> 
+    <div>email - <i><span id="myEmail"></span></i></div>
+    <div>Profile Url - <i><span id="myProfileId"></span></i></div> 
+    <div>HomeTown - <i><span id="myHomeTown"></span></i></div> 
+  </div>
+</div>
+<!--/flex-container-->
+
+<!--flex-container2-->
+<div class="flex-container2">
+  <div class="text">
+    <div><b>To see recent post</b> 
+      &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+      <button id="postsBtn">click here</button>
+    </div>
+    <div>Recent posts 1 -<i><span id="myPosts"></span></i></div> 
+    <div>Recent posts 2- <i><span id="myPosts2"></span></i></div> 
+    <div>Recent posts 3- <i><span id="myPosts3"></span></i></div>
+    <div>Recent posts 4- <i><span id="myPosts4"></span></i></div>
+    <div>Recent posts 5- <i><span id="myPosts5"></span></i></div>    
+  </div>
+</div>
+<!--/flex-container2-->
+ 
+
+
+<!-- Latest compiled and minified JavaScript -->
+
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="app.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
+
+</body>
+<!--/body-->
+</html>
+<!--html-->
